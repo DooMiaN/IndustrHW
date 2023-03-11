@@ -14,9 +14,9 @@ void triangle::set(double a1, double b1, double c1) {
 }
 
 void triangle::show() {
-	cout << "1 ñòîðîíà: : " << a << endl;
-	cout << "2 ñòîðîíà: " << b << endl;
-	cout << "3 ñòîðîíà: " << c << endl;
+	cout << "1 Å„ÅˆÃ®Ä‘Ã®Ã­Å•: : " << a << endl;
+	cout << "2 Å„ÅˆÃ®Ä‘Ã®Ã­Å•: " << b << endl;
+	cout << "3 Å„ÅˆÃ®Ä‘Ã®Ã­Å•: " << c << endl;
 }
 
 double triangle::perimetr() {
