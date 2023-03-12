@@ -10,9 +10,9 @@ public:
 	rational operator+(rational next) {
 		return rational((this->a * next.b + next.a * this->b), this->b * next.b);
 	};
-	friend rational operator-(const rational& f, const rational& s);
+	friend rational operator-(const rational& ratio1, const rational& ratio2);
 	void operator++();
-	bool operator==(const rational& other);
-	bool operator>(const rational& other);
-	void operator=(const rational& other);
+	bool operator==(const rational& next);
+	bool operator>(const rational& next);
+	void operator=(const rational& next);
 };
